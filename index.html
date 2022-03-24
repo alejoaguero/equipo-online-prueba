@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#000000" >
     <title>Equipo Online</title>
-    <link rel="shortcut icon" href="Image/favicon.ico" type="image/x-icon" /> 
-    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- Archivos de css--> 
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     
 </head>
 <body>
@@ -15,7 +17,7 @@
         <svg id="menuDesple" xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-list header__svg" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
         </svg>
-        <img class="header__logo" src="Image/Equipo on line.png" alt="logo">
+        <img class="header__logo" src="img/Equipo on line.png" alt="logo">
         <div id="menu" class="header__menu">
             <nav>
                 <li><a class="header__menu_category" href="">Inicio</a></li>
@@ -28,6 +30,27 @@
         </div>
         <div id="menuBack"></div>
     </header>
-    <script src="JS/app.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
+                <h1>Competiciones de Escape Room Online</h1>
+                <h2>La actividad de Team Building virtual para unir equipos en remoto</h2>
+                <div class="row pt-3">
+                  <div class="col-6 text-center my-auto">
+                    <a href="#" type="button" data-toggle="modal" data-target="#exampleModal" class="col-12 btn-get-started scrollto mr-4">Solicita una Demo</a>
+                  </div>
+                  <div class="col-6 text-center my-auto">
+                    <a href="#about" class="col-12 btn-get-started-2 scrollto">Descubre más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
+            <img src="img/corporativa01.jpg" alt="Equio Online">
+        </div>
+        </div>
+        
+    </div>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
