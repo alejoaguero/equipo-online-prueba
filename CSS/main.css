@@ -1,6 +1,6 @@
-@import url('header.css'); 
-
-*{
+@import url('header.css');
+@import url('cuerpo.css');
+* {
     list-style-type: none;
     text-decoration: none;
     margin: 0;
