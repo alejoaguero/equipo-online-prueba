@@ -1,4 +1,6 @@
-.header{
+.header {
+    top: 0;
+    position: fixed;
     height: 62px;
     display: flex;
     align-items: center;
@@ -8,12 +10,13 @@
     background-color: #291C0B;
     color: white;
 }
-.header__logo{
+
+.header__logo {
     width: 100px;
     height: 100px;
 }
 
-.header__menu{
+.header__menu {
     position: absolute;
     top: 0;
     left: -4000px;
@@ -22,11 +25,12 @@
     background-color: black;
     transition: all 200ms linear;
 }
-.header__menuOn{
+
+.header__menuOn {
     left: 0;
 }
 
-.header__menu_color{
+.header__menu_color {
     position: absolute;
     top: 0;
     right: 0;
@@ -35,6 +39,12 @@
     background-color: #D85844;
     opacity: 0.7;
 }
-.header__menu_category{
+
+.header__menu_category {
     color: white;
+}
+
+.header__imageCorpo {
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px grey;
 }
