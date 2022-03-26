@@ -13,74 +13,102 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <!--JQuery-->
     <script src="./js/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="img/Logo02.png" alt="Equipo Online Logo" >
-              </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark header">
+        <div class="container-fluid contenedor__navbar">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo02.png" alt="Equipo Online Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sobe Nosotros
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                      <a class="dropdown-item" href="#">¿Como funciona?</a>
-                      <a class="dropdown-item" href="#">Nuestros Juegos</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Preguntas Frecuentes</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                  </li>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <a class="dropdown-item" href="#">¿Como funciona?</a>
+                            <a class="dropdown-item" href="#">Nuestros Juegos</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Preguntas Frecuentes</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
                 </ul>
-              </div>
             </div>
-          </nav>
+        </div>
+    </nav>
     <main class="main">
-        <div class="container pt-5">
-            <div class="row mt-sm-3 align-items-center">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 ">
-                    <h1 class="mb-4">Torneos de Escape Room Online</h1>
-                    <h2 class="text-muted">Una actividad de Team Building virtual ideal para cualquier situación</h2>
-                    <div class="row pt-3">
-                        <div class="col-6 text-center my-auto">
-                            <button class="btn btn-danger w-100"> 
-                                <a href="#" type="button" data-toggle="modal" data-target="#exampleModal" class="col-12 btn-get-started scrollto mr-4 text-decoration-none text-light">Solicita una Demo</a>
-                            </button>
+        <div class="background-section1">
+            <div class="container pt-md-5">
+                <div class="row mt-sm-3 align-items-center">
+                    <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 ">
+                        <h1 class="mb-4 display-3 title-section1">Torneos de Escape Room Online</h1>
+                        <h3 class="text-muted">Una actividad de Team Building virtual ideal para cualquier situación</h3>
+                        <div class="row pt-3 box-button">
+                            <div class="col-6 text-center my-auto">
+                                <button class="btn w-100 btn-danger button__first"> 
+                                    <a href="#" type="button" data-toggle="modal" data-target="#exampleModal" class="col-12 btn-get-started scrollto mr-4 text-decoration-none text-light">Solicita una Demo</a>
+                                </button>
+                            </div>
+                            <div class="col-6 text-center my-auto">
+                                <button class="btn btn-danger w-100 button__last">
+                                    <a href="#about" class="col-12 btn-get-started-2 scrollto text-decoration-none">Descubre más</a>
+                                </button>
+                            </div>
                         </div>
-                        <div class="col-6 text-center my-auto">
-                            <button class="btn btn-danger w-100">
-                                <a href="#about" class="col-12 btn-get-started-2 scrollto text-decoration-none text-light">Descubre más</a>
-                            </button>
-                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-5 pt-md-2 pt-lg-0 order-1 order-lg-2">
+                        <img class="img-fluid section1__imageCorpo" src="img/corporativa01.jpg" alt="Equio Online">
                     </div>
                 </div>
-                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
-                    <img class="img-fluid header__imageCorpo" src="img/corporativa01.jpg" alt="Equio Online">
+                <!--Autocompletado de texto dinamico-->
+                <div class="col-9 p-2">
+                    <h4>Una dinámica ideal para <span class="typed"></span></h4>
+                </div>
+            </div>
+        </div>
+        <hr class="m-0 p-0">
+        <!--Card info del Juego (en desarrollo)-->
+        <div class="container">
+            <div class="row">
+                <div class="card col-1" style="width: 15rem;">
+                    <div class="card-body">
+                    </div>
+                </div>
+                <div class="card col-4" style="width: 15rem;">
+                    <div class="card-body">
+                    </div>
+                </div>
+                <div class="card col-6" style="width: 15rem;">
+                    <div class="card-body">
+                    </div>
+                </div>
+                <div class="card col-9" style="width: 15rem;">
+                    <div class="card-body">
+                    </div>
                 </div>
             </div>
         </div>
     </main>
-    <script src="js/app.js"></script>
-    <script src="js/bootstrap.js"></script>
     <!--Script para que el menu oculto se abra cuando pase el mouse-->
     <script type="text/javascript">
         const $dropdown = $(".dropdown");
         const $dropdownToggle = $(".dropdown-toggle");
         const $dropdownMenu = $(".dropdown-menu");
         const showClass = "show";
-        
+
         $(window).on("load resize", function() {
             if (this.matchMedia("(min-width: 768px)").matches) {
                 $dropdown.hover(
@@ -96,11 +124,13 @@
                         $this.find($dropdownToggle).attr("aria-expanded", "false");
                         $this.find($dropdownMenu).removeClass(showClass);
                     });
-                } else {
-                    $dropdown.off("mouseenter mouseleave");
-                }
-            });
+            } else {
+                $dropdown.off("mouseenter mouseleave");
+            }
+        });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
