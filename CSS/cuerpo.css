@@ -1,3 +1,5 @@
+/*Color de botones*/
+
 .btn-danger {
     background-color: #90091d !important;
     border-color: #90091d !important;
@@ -16,12 +18,17 @@
     color: #90091d;
 }
 
+
+/*Color del texto automatico*/
+
 .texto-automatico {
     color: #90091d;
 }
 
+
+/*Imagen corporativa*/
+
 .section1__imageCorpo {
-    width: 100%;
     box-shadow: 0px 4px 8px grey;
 }
 
@@ -29,4 +36,11 @@
     .title-section1 {
         font-size: 38px !important;
     }
+}
+
+
+/*Card con informacion*/
+
+.cards__info {
+    margin-left: 5px !important;
 }
