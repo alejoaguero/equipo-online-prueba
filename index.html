@@ -12,8 +12,13 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    
     <!--JQuery-->
     <script src="JS/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
 </head>
 
 <body>
@@ -32,7 +37,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sobe Nosotros
+                    Sobre Nosotros
                     </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                             <a class="dropdown-item" href="#">¿Como funciona?</a>
@@ -79,8 +84,8 @@
             </div>
         </div>
         <!--Card info del Juego (en desarrollo)-->
-        <div class="container mt-4">
-            <div class="row justify-content-center">
+        <div class="container mt-4 ">
+            <div data-aos="fade-up" class="row justify-content-center">
                 <div class="col">
                     <div class="card card-info" style="width: 14rem;">
                         <div class="card-body cards__info">
@@ -114,7 +119,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 14rem;">
+                    <div class="card card-info" style="width: 14rem;">
                         <div class="card-body cards__info">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-translate card-img-top" viewBox="0 0 16 16">
                                 <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"/>
@@ -129,13 +134,13 @@
         <hr class="p-0">
         <section class="section__infoEscape container mt-5" id="diversion">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div data-aos="fade-right" class="col-lg-6">
                     <img src="./img/escape-example.webp" alt="image_example" class="w-100">
                 </div>
                 <div class="col-lg-6 text-lg-center mt-sm-4">
-                    <h3>Divertite jugando con tu equipo de trabajo</h3>
-                    <p>Nosotros nos encargamos de todo.</p>
-                    <div class="row">
+                    <h3 data-aos="fade-left">Divertite jugando con tu equipo de trabajo</h3>
+                    <p data-aos="fade-left">Nosotros nos encargamos de todo.</p>
+                    <div data-aos="fade-left" class="row">
                         <div class="col-lg">
                             <i class="bi bi-headset about"></i>
                             <p class="h4">Juego supervisado:</p>
@@ -147,7 +152,7 @@
                             <p>Coordinamos el evento de principio a fin.</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div data-aos="fade-left" class="row">
                         <div class="col-lg">
                             <i class="bi bi-link-45deg about"></i>
                             <p class="h4">Fácil y simple:</p>
@@ -162,6 +167,60 @@
                 </div>
             </div>
         </section>
+        <section class="logo-carousel slider">
+            <div class="row">
+                <div class="col">
+                    <div class="brands_slider_container">
+                        <div class="align-items-center">
+                            <h3 data-aos="fade-left">Nuestros Clientes</h3>
+                            </div>
+                        <div class="owl-carousel owl-theme brands_slider">
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo00a.png"  alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo01a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo02a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo03a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo04a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo05a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo06a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo07a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo08a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo09a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo10a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo11a.png" alt=""></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center"><img src="img/logos/logo12a.png" alt=""></div>
+                            </div>
+                        </div> <!-- Brands Slider Navigation -->
+                        <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
+                        <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
+                    </div>
+                </div>
+            </div>
+          </section>
     </main>
     <!--Script para que el menu oculto se abra cuando pase el mouse-->
     <script type="text/javascript">
@@ -189,9 +248,11 @@
                 $dropdown.off("mouseenter mouseleave");
             }
         });
+        
     </script>
     <!---Typed Js-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="JS/app.js"></script>
 </body>
 
